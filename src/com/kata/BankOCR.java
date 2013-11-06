@@ -127,11 +127,13 @@ public class BankOCR {
 			breakChainToStorage(lineFromThePrinterMidle, 1);
 			breakChainToStorage(lineFromThePrinterBottom, 2);
 			println = buildSinglePrint();
+			
+			return validatePrintAccountNumber(println);
 		}
 
 		
-
-		return validatePrintAccountNumber(println);
+return null;
+		
 
 	}
 
